@@ -1,0 +1,77 @@
+.logo{
+    width: 50px;
+margin-top: 10px;
+}
+.nav{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.nav li a{
+    color: black;
+}
+
+
+li .navbar-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  li .navbar-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+  }
+  li .navbar-link:hover::after {
+  width: 100%;
+  
+  }
+
+  .navbar{
+    position: relative;
+    min-height: 69px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0px;
+  }
+  #img img{
+    width: 100%;
+    height: 90.20%;
+  }
+  #img::after{
+    content: '';
+    position: absolute;
+    margin-top: 68px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90.20%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+  .text{
+    position: absolute;
+    bottom: 45%;
+    left: 35%;
+    font-size: xxx-large;
+    color: white;
+    font-weight: bolder;
+}
+.btn{
+  margin-top: 10px;
+}
+  @media (max-width: 768px){
+    .logo{
+        margin-left: 10px;
+    }
+  }
+
+  
+.contact{
+  margin: 5%;
+}
+.form1{
+  top: 70px
+}

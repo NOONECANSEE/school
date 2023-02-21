@@ -1,0 +1,141 @@
+#srch{
+    width: 200px;
+}
+.navbar{
+    transition:500ms ease;
+    background:transparent;
+  }
+  .navbar.scrolled{
+    background:rgba(26, 25, 25, 0.918);
+
+  }
+/* carousel image id */
+#imgcar img{
+    width: 100%;
+    height: 100%;
+}
+#imgcar::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+/* this is the id of the giving the shape to the indicators */
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 80% 35%/75%;
+
+}
+/* this is the id of set the position of text over image and this is used with class carousel inner */
+#setpos{
+    position: relative;
+    
+}
+/* this is the id of set the position of text  */
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+/* this is the id of giving style to text */
+#text{
+   color:rgb(245, 245, 245);
+    font-family:cursive;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+#text1{
+   color:rgb(245, 245, 245);
+    font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+
+  
+}
+/* this is the id of set the position of btn */
+#centerbtn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border-color: white;
+    color:rgb(245, 245, 245);
+    font-family:cursive;
+    letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+   
+}
+#centerbtn:hover{
+    background-color: rgb(177, 171, 171);
+}
+.top-right{
+    position: absolute;
+    top:8px;
+    left:16px;
+}
+.r1{
+    padding-top: 50px;
+}
+.ig{
+    width: 150px;
+    position: relative;
+    left: 250px;
+}
+/* #ig2{
+    bottom:50;
+} */
+.border-bottom{
+    padding-top: 40px;
+}
+
+.card:hover{
+    box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    
+}
+.end{
+    padding-top: 30px;
+    background-color: black;
+}
+
+#grd{
+    display: grid;
+    grid: auto auto/ auto auto auto;
+    grid-gap: 0px;
+    padding: 0px;
+}
+#grdi{
+padding: 4px 4px;
+text-align: center;
+}
+
+
+#logo{
+    width: 50px;
+}
+#t1{
+    text-align: justify;
+}
+
+@media (max-width: 850px) {
+    .ig{
+        margin-bottom: 20px;
+        margin-left: -90px;
+    }
+    /* #ig2{
+        top: -185px;
+    } */
+    /* #t1 {
+        top: 70px;
+        position: relative;
+    } */
+}
